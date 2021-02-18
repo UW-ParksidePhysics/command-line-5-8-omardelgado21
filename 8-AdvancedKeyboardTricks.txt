@@ -1,1 +1,28 @@
-
+Concepts: Scrpit, Shell, Prompt
+~/command-line-5-8-PeterK-UWP$ ls
+5-WorkingWithCommands.txt         ls-error.txt
+6-Redirection.txt             ls-output.txt
+7-SeeingTheWorldAsTheShellSeesIt.txt  ls.txt
+8-AdvancedKeyboardTricks.txt          README.md
+lazy_dog.txt
+~/command-line-5-8-PeterK-UWP$ ls l
+ls: cannot access 'l': No such file or directory
+~/command-line-5-8-PeterK-UWP$ ls ls-output.txt
+ls-output.txt
+~/command-line-5-8-PeterK-UWP$ ls D
+ls: cannot access 'D': No such file or directory
+~/command-line-5-8-PeterK-UWP$ ls D
+ls: cannot access 'D': No such file or directory
+~/command-line-5-8-PeterK-UWP$ ls Do
+ls: cannot access 'Do': No such file or directory
+~/command-line-5-8-PeterK-UWP$ ls Documents
+ls: cannot access 'Documents': No such file or directory
+~/command-line-5-8-PeterK-UWP$ history | less
+bash: less: command not found
+~/command-line-5-8-PeterK-UWP$ histroy | grep /usr/bin
+bash: histroy: command not found
+~/command-line-5-8-PeterK-UWP$ !88
+bash: !88: event not found
+~/command-line-5-8-PeterK-UWP$ 
+~/command-line-5-8-PeterK-UWP$ ls -l /usr/bin > ls-output.txt
+~/command-line-5-8-PeterK-UWP$ 
